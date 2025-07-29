@@ -1,4 +1,4 @@
-/* Reset margins/padding and set a base font */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   color: #333;
 }
 
-/* Common header styling */
+/* header styling */
 header {
   background: #004080;
   color: #fff;
@@ -34,7 +34,6 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-/* Container for page content */
 .container {
   max-width: 800px;
   margin: 2rem auto;
@@ -43,14 +42,6 @@ header nav a:hover {
   border-radius: 4px;
 }
 
-/* Background image on predict page */
-.predict-page {
-  background: url('css/img1.png') no-repeat center center;
-  background-size: cover;
-  min-height: 100vh;
-}
-
-/* Form styling */
 form {
   display: grid;
   grid-template-columns: 1fr 1fr;
